@@ -15,7 +15,6 @@ public class NodeFigure {
 		g.fillOval(x, y, SIZE, SIZE);
 		g.setColor(Color.BLACK);
 		g.drawOval(x, y, SIZE, SIZE);
-		text = "q";
 		g.drawString(text, x+(SIZE/2)-5, y+(SIZE/2)+5);
 	}
 	

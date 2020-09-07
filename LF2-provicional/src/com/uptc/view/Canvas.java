@@ -38,9 +38,8 @@ public class Canvas extends JPanel {
 		figure = new NodeFigure();
 		figure.setX(x);
 		figure.setY(y);
-		figure.setText("q" + incremental);
+		figure.setText("q" + list.size());
 		list.add(figure);
-		incremental++;
 	}
 	
 	public void refresh() {
