@@ -20,6 +20,7 @@ public class TestRegex {
 	}
 	
 	
+	
 	private static void getAllBucles(String regex) {
 		String auxString = regex;
 		for (int i = 0; i < regex.length(); i++) {
