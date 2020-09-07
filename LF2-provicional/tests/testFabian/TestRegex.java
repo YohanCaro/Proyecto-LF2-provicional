@@ -1,4 +1,4 @@
-package test;
+package testFabian;
 
 import java.util.ArrayList;
 import java.util.Scanner;
