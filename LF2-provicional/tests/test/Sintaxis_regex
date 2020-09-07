@@ -1,0 +1,27 @@
+^       (acento circunflejo) Coincide con el principio de la línea o de la cadena de texto que se busca mediante la expresión regular. 
+        Por ejemplo, una regla de contenido con una línea de asunto de ubicación y la siguiente expresión regular: ^abc
+        obtiene todos los mensajes de correo electrónico cuya línea de asunto empiece por las letras abc
+
+$       (dólar) Coincide con el final de la línea o de la cadena de texto que se busca mediante la expresión regular. 
+        Por ejemplo, una regla de contenido con una línea de asunto de ubicación y la siguiente expresión regular: xyz$
+        obtiene todos los mensajes de correo electrónico cuya línea de asunto termine en las letras xyz
+
+.       (punto) Coincide con cualquier carácter individual, excepto con los de una línea nueva.
+
+|       (barra vertical) Indica alternativa; es decir, la disyuntiva "o". Por ejemplo: gato|perro 
+        coincide con la palabra gato o con perro.
+   
+\       Indica que el carácter siguiente es literal y no especial. Por ejemplo: \. 
+        coincide únicamente con un punto y no con cualquier carácter (puntos suspensivos)
+   
+[...]   Coincide con cualquiera de los caracteres del conjunto especificado. Separa el primer y el último carácter con un guion. Por ejemplo:
+        [123] coincide con los números 1, 2 o 3.
+        [a-f] coincide con cualquier letra de la a a la f.
+        Nota: En las políticas de cumplimiento del contenido, las expresiones regulares distinguen entre mayúsculas y minúsculas.
+      
+[^...]  Coincide con cualquier carácter que no se incluya en el conjunto de caracteres especificado. Por ejemplo:
+        [^a-f] coincide con cualquier carácter que no sea una letra comprendida entre la a y la f.
+        
+*       Cláusula que especifica el bucle recursivo de un estado para 0 ó más elementos 
+
++       Cláusula que especifica el bucle recursivo de un estado para 1 ó más elementos
