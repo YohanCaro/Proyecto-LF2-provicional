@@ -12,7 +12,6 @@ public class TestRegex {
 		String regex = sc.nextLine();
 		System.out.println("La regex es: " +regex);
 		
-		
 		getAllBucles(regex);
 		System.out.println("Bucles de la regex:");
 		printBuclesList();
